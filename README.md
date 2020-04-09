@@ -1,3 +1,3 @@
 # algorithmML
 
-This project aims to control algorithms in Machine Learning
+This project is to work with algorithms in Machine Learning
