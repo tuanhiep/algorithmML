@@ -11,12 +11,12 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import precision_score, recall_score, f1_score
 from sklearn.model_selection import cross_val_predict
-# from A5.kpca import myKernelPCA
-# from A5.lda import myLDA
-# from A5.pca import myPCA
-from kpca import myKernelPCA
-from lda import myLDA
-from pca import myPCA
+from A5.kpca import myKernelPCA
+from A5.lda import myLDA
+from A5.pca import myPCA
+# from kpca import myKernelPCA
+# from lda import myLDA
+# from pca import myPCA
 from sklearn.datasets import fetch_openml
 
 
