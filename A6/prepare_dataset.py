@@ -12,7 +12,7 @@ df = pd.read_csv(original_data_path, header="infer")
 # Drop the time stamp of sample data set
 print(df)
 data = df.drop(["TIMESTAMP", "Hour"], axis=1)
-# Replace sample missing value by average value
+# Replace sample missing value by zero
 data.fillna(0, inplace=True)
 print(data.head())
 df_daily = data.groupby(data.index // 24).sum()
