@@ -9,7 +9,7 @@ class MyLinearRegressionNE:
         self.name = "Linear Regression Normal Equation"
 
     def fit(self, p_X, p_Y):
-        X = np.zeros((p_X.shape[0], p_X.shape[1] + 1))
+        X = np.ones((p_X.shape[0], p_X.shape[1] + 1))
         X[:, :-1] = p_X
         # X = p_X in case without intercept term
         Y = p_Y.reshape(p_Y.shape[0], 1)
