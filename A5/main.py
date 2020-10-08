@@ -5,11 +5,10 @@ from os import path
 
 import pandas as pd
 
-from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import precision_score, recall_score, f1_score
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.model_selection import cross_val_predict
 from A5.kpca import myKernelPCA
 from A5.lda import myLDA

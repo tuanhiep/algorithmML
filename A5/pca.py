@@ -2,6 +2,7 @@
 from sklearn.decomposition import PCA
 
 
+# custom PCA
 class myPCA:
 
     def __init__(self, n_components):
@@ -12,4 +13,3 @@ class myPCA:
 
     def transform(self, X):
         return self.pca.transform(X)
-
